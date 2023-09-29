@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Añadir coche</title>
+</head>
+<body>
+<div th:insert="fragments/nav"></div>
+<h3>Añadir Coche</h3>
+<form action="/coches" method="post">
+    <label>Matricula:</label>
+    <input type="text" name="matricula"><br>
+    <label>Marca:</label>
+    <input type="text" name="marca" ><br>
+    <label>Modelo:</label>
+    <input type="text" name="modelo"><br>
+    <label>km:</label>
+    <input type="number" name="km"><br>
+    <button>Añadir</button>
+</form>
+
+</body>
+</html>
