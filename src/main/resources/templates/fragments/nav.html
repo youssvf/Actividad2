@@ -9,6 +9,9 @@
 
 <a th:href="@{/}">Coches</a>
 <a th:href="@{/form}">Nuevo</a>
-
+<form action="/buscar" method="post">
+    <input name="busqueda" type="text">
+    <button>Buscar</button>
+</form>
 </body>
 </html>
